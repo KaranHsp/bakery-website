@@ -1,0 +1,120 @@
+/* ================= CONTENT SECTION ================= */
+#content{
+    width: 100%;
+    background-color: #fff2dd;
+    text-align: center;
+    padding-bottom: 60px; 
+}
+
+#content > h1{
+    padding-top: 40px;
+    color: #4a2c2a;
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800;
+    font-size: 52px;
+}
+
+#content > p{
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 19px;
+    color: #4a2c2a;
+    padding-top: 12px;
+}
+
+#box{
+    width: 1050px;
+    margin: 45px auto 0 auto;
+    overflow: hidden;          
+}
+
+#box .card{
+    float: left;
+    box-sizing: border-box;
+    width: 330px;
+    height: 325px;
+    margin: 0 30px 30px 0;
+    padding: 28px;
+    text-align: left;
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0 10px 24px rgba(120, 70, 20, 0.12);
+}
+
+#box .card:nth-child(3n){
+    margin-right: 0;
+}
+
+.icon{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 18px;
+    text-align: center;
+    font-size: 38px;
+}
+
+.text{
+    height: 125px;
+}
+
+.card h3{
+    font-weight: 700px;
+    font-size: 24px;
+    color: #4a2c2a;
+    margin-bottom: 8px;
+}
+
+.card p{
+    font-size: 17px;
+    padding-top: 20px;
+    color: #4a2c2a;
+    padding-top: 0;
+}
+
+.price{
+    font-weight: bolder;
+    font-size: 22px;
+    color: #d98c4f;
+}
+#contact{
+    width: 100%;
+    height: 600px;
+    background-color: #fff2dd;
+}
+#contact .detail{
+    width: 20%;
+    padding: 80px;
+    margin-left: 200px;
+    color: #4a2c2a;
+    font-weight: lighter;
+    float: left;
+    margin-top:  20px;
+}
+#custom-box{
+    width: 35%;
+    height:400px ;
+    float: right;
+    margin: 100px 300px 0 0;
+    border-radius: 50px;
+    background-color: white;
+    color: #000000;
+    background-image: url(image/background.jpg);
+    background-size: cover;
+    opacity: 0.8;
+    font-weight: bolder;
+    
+}
+.box-inside{
+    margin-left: 40px;
+}
+.box-inside input{
+    border-radius: 10px;
+    color: #4a2c2a;
+}
+#Famous-thing{
+    width: 100%;
+    height: 900px;
+    background-color: #fff2dd;
+}
